@@ -1,0 +1,38 @@
+﻿body {
+    text-align: center;
+    font-family:sans-serif;
+    background: rgb(236, 236, 236);
+}
+#words {
+    margin: 30px auto;
+    width: auto;
+    height:auto;
+    overflow: auto;
+}
+#words span {
+    padding: 0 10px;
+    font-size: 20px;
+    text-align: left;
+}
+#youWin {
+    
+}
+ 
+input {
+    background: rgb(236 ,236, 236);
+    margin: 30px auto;
+}
+#wordRange {
+    display: block;
+    margin-top: 0;
+}
+ 
+.inputArea {
+    display: inline-block;
+    margin-left: 80px;
+}
+label button {
+    margin-left: 6px;
+}
+
+

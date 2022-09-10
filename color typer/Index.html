@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+    <h1> type the color! </h1>
+    <p id="youWin"> Instructions: Type start to begin. As fast as you can, type the color of each word then hit enter.</p>
+    <div id="words">
+        &nbsp;
+        <p id="textHolder"></
+        p>
+    </div>
+    <div class="inputArea">
+        <input type="text" onchange="checkColor(this)" autocomplete="off" />
+        <label for="text">
+            <button onclick="restart()"> Restart </button>
+        </label>
+    </div>
+    <br />
+    <div class="wordArea">
+    <input type="range" min="1" max="100" value="10" id="wordRange" onchange="wordAmount()" />
+        <p id="wordCount">words: 10 </p>
+       </div>
+    <br />
+    <button onclick="clearStorage()"> Clear Cache </button>
+    <h2> Typing History: </h2>
+    <script src="Javascript.js"></script>
+</body>
+</html>
